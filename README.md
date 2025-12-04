@@ -1,75 +1,37 @@
-# Nuxt Minimal Starter
+# Static Site Generator Project
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+*Name:* Samuel Albertio 
+*Student Number:* 041099403  
+*Static Site Generator:* Nuxt 3
+
+## About
+This is a personal portfolio/interest site built with Nuxt 3 as a static site generator for MTM6407.
 
 ## Setup
 
-Make sure to install dependencies:
-
-```bash
-# npm
+Install dependencies:
+bash
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
 
 ## Development Server
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+Start the development server on http://localhost:3000:
+bash
 npm run dev
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
 
 ## Production
 
 Build the application for production:
+bash
+npm run generate
 
-```bash
-# npm
-npm run build
 
-# pnpm
-pnpm build
+## Deployment
 
-# yarn
-yarn build
+This site is deployed on Netlify.
 
-# bun
-bun run build
-```
+## Repository
 
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+GitHub: https://github.com/albe0195/mtm6407-static-site-albe0195
