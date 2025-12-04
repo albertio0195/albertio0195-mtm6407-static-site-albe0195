@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  ssr: true,
+  ssr: false,
   
   app: {
     baseURL: '/albertio0195-mtm6407-static-site-albe0195/',
