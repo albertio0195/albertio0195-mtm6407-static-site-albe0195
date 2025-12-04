@@ -1,5 +1,16 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-15',
-  devtools: { enabled: true }
+  ssr: true,
+  
+  app: {
+    baseURL: '/mtm6407-static-site-albe0195/',
+    buildAssetsDir: 'assets',
+    head: {
+      title: 'Albertio Samuel - Portfolio',
+      meta: [
+        { name: 'description', content: 'A portfolio showcasing my web development skills and projects' }
+      ]
+    }
+  },
+
+  compatibilityDate: '2024-11-24'
 })
